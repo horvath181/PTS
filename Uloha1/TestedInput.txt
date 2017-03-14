@@ -1,0 +1,22 @@
+pass
+points jozef 12
+pass
+points marek 27
+pass
+ranking
+ranking junior
+points jozef 20
+pass
+ranking
+reduce 10
+pass
+ranking
+junior jozef
+pass
+ranking junior
+junior dusan
+pass
+ranking
+ranking junior
+quit
+pass
