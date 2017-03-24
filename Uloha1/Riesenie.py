@@ -1,5 +1,3 @@
-# import math for floor function
-import math
 # dictionary of players and their scores
 players = {}
 # list of juniors
@@ -26,7 +24,7 @@ def points(name, number):
 @check_pass
 def red(percentage):
     for key in players:
-        players[key] = math.floor(players[key]*(1.0-(percentage/100)))
+        players[key] = int(players[key]*(1.0-(percentage/100)))
 # adds 'name' among juniors (if he's not a player yet, it'll add him there as well with score equal to 0)
 @check_pass
 def junior(name):
